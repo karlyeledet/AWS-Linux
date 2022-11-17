@@ -31,3 +31,11 @@ elif (( $number > 5 )) ; then
 else
         echo "number too small"
 fi
+
+Code to compare numbers on Ubuntu terminal
+
+#!/bin/bash
+#compares two values
+
+echo 'Is the first number less then the second?'
+test $1 -lt $2 && echo 'yes' || echo 'no'
